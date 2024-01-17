@@ -67,6 +67,9 @@ body {
     justify-content: center;
     
 }
+.esta{
+    padding: 15px;
+}
 .lugar{
     position: relative;
 }
@@ -101,6 +104,10 @@ body {
     color: #274254;
     font-size: 110px;
 }
+.textoAsistencia{
+    font-size: 20px;
+    color: white;
+}
 .textoDressCode{
     font-size: 20px;
     color: white;
@@ -109,6 +116,12 @@ body {
     display: flex;
     justify-content: center;
     margin-top: -50px;
+    position: relative;
+}
+.lineas-anillo-bodas{
+    display: flex;
+    justify-content: center;
+    /* margin-top: -50px; */
     position: relative;
 }
 .anillos{
@@ -198,10 +211,23 @@ body {
     /* padding: 80px; */
 
 }
-.dressCodeTexto{
+.izquierda {
+    text-align: left;
+  }
+
+  .derecha {
+    text-align: right;
+  }
+
+  .izquierda, .derecha {
+    margin-bottom: 20px;
     color: white;
-    font-size: 30px;
-}
+    font-size: 20px;
+    padding: 10px;
+  }
+  h4{
+      color: rgb(219, 149, 149);
+  }
 .gracias{
     margin-top: 100px;
 }
