@@ -74,6 +74,9 @@ body {
     /* width: 100vw; */
     height: 100vh;
 }
+.imgMapa{
+    height:450px;
+}
 .texto2 {
     color: white;
     font-size: 80px;
@@ -293,6 +296,14 @@ body {
     .dressCodeTexto{
         font-size: 22px;
     }
+    .mapa{
+        padding: 30px;
+        /* aspect-ratio: 1/1; */
+    }
+    .imgMapa{
+        height: 350px;
+    }
+
 }
 
 
