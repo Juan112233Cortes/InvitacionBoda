@@ -69,7 +69,6 @@ body {
 }
 .lugar{
     position: relative;
-    /* max-width: ;width: 25%; */
 }
 .imgLugar{
     /* width: 100vw; */
@@ -196,14 +195,6 @@ body {
     /* padding: 80px; */
 
 }
-.traje{
-    height: 55vh;
-    width: 20vw;
-}
-.vestido{
-    height: 55vh;
-    width: 20vw;
-}
 .dressCodeTexto{
     color: white;
     font-size: 30px;
@@ -214,32 +205,96 @@ body {
 
 /* --------------------------------------RESPONSIVE------------------------------------------- */
 /* Estilos para dispositivos con pantalla de 375 x 667 */
-@media screen and (width: 375px) and (height: 667px) {
-    
+@media screen and (max-width:550px){
     .LaraYJose{
-        font-size: 20px;
+        font-size: 40px;
+        margin-top: -250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img1{
+        width: 100vw;
+        height: 40vh;
+    }
+    .imgLugar{
+        width: 100vw;
+        height: 50vh;
+    }
+    .texto2{
+        font-size: 35px;
+    }
+    .lineas-anillos{
+        margin-top: 1px;
+    }
+    .linea1{
+        width: 100px;
+    }
+    .linea2{
+        width: 100px;
+    }
+    .anillos{
+        max-width: 6.5%;
+    }
+    .linea3{
+        width: 100px;
+    }
+    .linea4{
+        width: 100px;
+    }
+    .email{
+        max-width: 6.5%;
+    }
+    .texto3{
+        font-size: 22px;
+        padding: 5px;
+    }
+    .texto4{
+        font-size: 35px;
+    }
+    .texto5{
+        font-size: 22px;
+    }
+    .texto6{
+        font-size: 50px;
+    }
+    
+    .simply-section{
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        margin: 0 5px;
+        border-radius: 1px;
+        border-style: double;
+        border-width: 7px; /* Ancho del borde */
+        padding: 5px;
+        display: flex;  
+        align-items: center;
+        justify-content: center;  
+    }
+    .simply-amount{
+        display: block;
+        font-size: 28px;
+    }
+    .dressCode{
+        display: inline;
+    }
+    .dressCodePersona1{
+        align-content: flex-start;
+        margin-bottom: 95px;
+    }
+    .dressCodePersona2{
+        align-content: flex-start;
+        margin: 15px;
+    }
+    .textoDressCode{
+        font-size: 17px;
+    }
+    .dressCodeTexto{
+        font-size: 22px;
     }
 }
 
-/* Estilos para dispositivos con pantalla de 414 x 896 */
-@media screen and (width: 414px) and (height: 896px) {
-    /* Agrega aquí tus estilos específicos para esta resolución */
-}
-
-/* Estilos para dispositivos con pantalla de 390 x 844 */
-@media screen and (width: 390px) and (height: 844px) {
-    /* Agrega aquí tus estilos específicos para esta resolución */
-}
-
-/* Estilos para dispositivos con pantalla de 430 x 932 */
-@media screen and (width: 430px) and (height: 932px) {
-    /* Agrega aquí tus estilos específicos para esta resolución */
-}
-
-/* Estilos para dispositivos con pantalla de 412 x 915 */
-@media screen and (width: 412px) and (height: 915px) {
-    /* Agrega aquí tus estilos específicos para esta resolución */
-}
 
 
 
